@@ -199,6 +199,11 @@ footer {
 
 /* Start About Area */
 
+.img-fluid2 {
+    max-width: 80%;
+    height: auto
+}
+
 .site-main .about-area {
     padding: 8rem 5rem;
 }
@@ -550,8 +555,8 @@ section .title::after {
 }
 
 .contact .right form .button {
-    height: 80px;
-    margin-left: -40px;
+    height: auto;
+    margin-left: 0;
 }
 
 .contact .right form .button button {
