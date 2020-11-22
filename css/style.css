@@ -555,8 +555,8 @@ section .title::after {
 }
 
 .contact .right form .button {
-    height: auto;
-    margin-left: 0;
+    height: 80px;
+    margin-left: 0px;
 }
 
 .contact .right form .button button {
