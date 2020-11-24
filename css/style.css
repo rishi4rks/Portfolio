@@ -36,7 +36,7 @@
 }
 
 .button.primary-button:hover {
-    background: whitesmoke;
+    background: #111;
     background-clip: padding-box;
     color: crimson;
     border: 2px solid crimson;
@@ -57,7 +57,7 @@
 
 .button.secondary-button {
     color: crimson;
-    background: white;
+    background: #111;
     background-clip: padding-box;
     transition: background .6s ease;
     border: 2px solid crimson;
@@ -259,10 +259,6 @@ body {
     color: #000;
 }
 
-.site-main .site-banner {
-    /* background: url(../img/banner/home-banner.png) no-repeat 0% 50%; */
-}
-
 .site-main .site-banner .topSpacing {
     padding-top: 35%;
     font-weight: 500;
@@ -305,7 +301,7 @@ body {
 }
 
 .site-main .about-area {
-    padding: 8rem 5rem;
+    padding: 6rem 5rem;
 }
 
 .site-main .about-area .about-title h2>span {

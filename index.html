@@ -68,17 +68,19 @@
         <!--  ======================= Start Banner =======================  -->
         <section class="site-banner" id="home" style="background-color: #111; height:100vh;">
             <div class="container">
-                <div class="row">
+                <div class="row" style="align-items: center;">
                     <div class="col-lg-6 col-md-12 site-title">
                         <h4 class="title-text topSpacing text-white">Hi, my name is</h4>
                         <div class="name text-white"><span>Rishikesh</span> Shede</div>
                         <h4 class="title-text text-uppercase text-white">I'm a <span class="typing" style="color: crimson;"></span></h4>
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
-                                <a href="#contactMe"><button type="button"
-                                        class="btn button primary-button mr-4 text-uppercase">hire
+                                <a href="#contactMe">
+                                    <button type="button" class="btn button primary-button mr-4 text-uppercase">hire
                                         me</button></a>
-                                <button type="button" class="btn button secondary-button text-uppercase">Get cv</button>
+                                <a href="Rishikesh _Shede.pdf" download>
+                                    <button type="button" class="btn button secondary-button text-uppercase">Get cv</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -95,28 +97,23 @@
 
         <section class="about-area" id="aboutMe">
             <div class="container-fluid">
-                <div class="row">
+                <div class="row" style="align-items: center;">
                     <div class="col-lg-6 col-md-12">
                         <div class="about-image">
                             <img src="./img/about-us.png" alt="About us" class="img-fluid2">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 about-title">
-                        <h2 class="text-uppercase pt-5">
-                            <span>Let me</span>
-                            <span>introduce</span>
-                            <span>myself</span>
-                        </h2>
-                        <div class="paragraph py-4 w-75">
-                            <p class="para">
+                        <h2 class="title">Introduction</h2>
+                        <div class="paragraph px-2">
+                            <p class="para" style="text-align: justify;">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rerum iure obcaecati vel possimus officia maiores perferendis ut! Quos, perspiciatis.
                             </p>
-                            <p class="para">
+                            <p class="para" style="text-align: justify;">
                                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
                                 content here
                             </p>
                         </div>
-                        <button type="button" class="btn button primary-button text-uppercase">Download cv</button>
                     </div>
                 </div>
             </div>
@@ -264,7 +261,7 @@
                             <h4 class="card-title"><strong>Vishwapreneur</strong></h4>
                             <!-- Subtitle -->
                             <h6 class="font-weight-bold pt-2">• Technical Head •</h6>
-                            <h6 class="font-weight-bold pb-2">Full-Stack Developer</h6>
+                            <h6 class="font-weight-bold pb-2">App Developer</h6>
                             <!-- Text -->
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex, recusandae. Facere modi sunt, quod quibusdam.
                             </p>
@@ -411,9 +408,7 @@
                             <div class="field textarea">
                                 <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                             </div>
-                            <div class="button">
-                                <button type="submit">Send message</button>
-                            </div>
+                            <button type="submit" class="btn button primary-button text-uppercase" style="float: right;">Send</button>
                         </form>
                     </div>
                 </div>
@@ -426,7 +421,7 @@
 
     <footer class="footer-area">
         <div class="copyrights text-center">
-            <p style="margin-bottom: 0;">Created By <span style="color: var(--primary-color);">Rishikesh Shede</span>
+            <p style="margin-bottom: 0;">Created By <span style="color: crimson;">Rishikesh Shede</span>
             </p>
         </div>
     </footer>
