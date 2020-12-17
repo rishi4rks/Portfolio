@@ -674,6 +674,40 @@ section .title::after {
     background: none;
 }
 
+#status {
+    width: 99%;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border: 10px;
+    border-radius: 3px;
+}
+
+#status.success {
+    background-color: rgb(3, 177, 55);
+    animation: status 5s ease forwards;
+}
+
+#status.error {
+    background-color: rgb(236, 58, 34);
+    animation: status 5s ease forwards;
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
 
 /* end of contact section */
 
