@@ -1,3 +1,7 @@
 # PortFolio
 
-This is my [portfolio website](https://rishi4rks.github.io/Portfolio/#home). I work as a freelance Full-stack app and web developer. You can hire me for your project. You can contact me to get the quotation or to discuss about your project via the contact details provided on the website.
+This is my [portfolio website](https://rishi4rks.github.io/Portfolio/). I work as a freelance Full-stack app and web developer. Check out the website to know more about my projects.
+
+To can hire me, discuss about your project or to get a quotation contact me via details provided on the website.
+
+![Landing UI Image](https://github.com/rishi4rks/Portfolio/blob/main/img/landing_UI.jpeg)
